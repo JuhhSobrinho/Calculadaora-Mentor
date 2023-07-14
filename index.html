@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <header>
+
+  </header>
+  <main>
+    <section class="calculadora">
+      <section class="dateBox">
+        <div class="container"> 
+          <span>DAY</span> 
+          <input class="date" type="number" name="DD" value="" id="dia" placeholder="DD">
+        </div>      
+
+        <div class="container">
+          <span>MONTH</span>
+          <input class="date" type="number" name="MM" value="" id="mes" placeholder="MM">  
+        </div>
+      
+        <div class="container">
+          <span>YEAR</span>  
+          <input class="date" type="number" name="YY" id="ano" placeholder="YY">
+        </div>
+      </section>
+
+      <div class="button">
+        <div class="line"></div>
+        <input class="botao" type="submit" value="false">
+      </div>
+
+      <section class="dateResultado">
+        <div class="resultado">
+          <p class="descricao" id="resAno">--</p>
+          <h1 class="titulo"> years</h1>
+        </div>
+
+        <div class="resultado">
+          <p class="descricao" id="resMes">--</p>
+          <h1 class="titulo"> months</h1>
+        </div>        
+        
+        <div class="resultado">
+          <p class="descricao" id="resDia">--</p>
+          <h1 class="titulo"> days</h1>
+        </div>        
+
+      </section>
+    </section>
+  </main>
+
+  <script src="./assets/main.js"></script>
+</body>
+</html>

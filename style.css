@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0 auto;
+    background-color: #efefef;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+header{
+    height: 10px;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    width: 90%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.172);
+    border-radius: 10px;
+}
+
+
+.calculadora{
+    background-color: white;
+    width: 700px;
+    height: 560px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.172);
+    border-radius: 20px 20px 200px 20px;
+}
+
+
+.dateBox{
+    flex-direction: row;
+    display: flex;
+    margin: 20px;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 40px;
+}
+
+
+.date{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.192);
+    border-width: 1px;
+    padding-left: 20px;
+    font-weight: 600;
+}
+.date::-webkit-inner-spin-button,
+.date::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+
+.container{
+    font-family:monospace ;
+    font-weight:600;
+    color: #00000073;
+    font-size: 16px;
+}
+
+
+.button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.line{
+    height: 2px;
+    width: 75%;
+    background-color: rgba(0, 0, 0, 0.374);
+}
+
+
+.botao{
+    cursor: pointer;
+    background: url('./assets/images/button.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    padding: 10px 20px;
+    border: none;
+    color: transparent;
+    height: 90px;
+}
+
+
+.dateResultado{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.resultado{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 80px;
+    margin-left: 50px;
+    padding: 0;
+}
+
+
+.titulo, .descricao{
+    margin: 0;
+    padding: 0 auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+
+.descricao{
+    color: #864DFE;
+}
+
