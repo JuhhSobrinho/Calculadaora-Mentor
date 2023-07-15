@@ -97,10 +97,9 @@ main{
     background: url('./assets/images/button.png');
     background-size:contain;
     background-repeat: no-repeat;
-    padding: 10px 20px;
+    padding: 30px 30px;
     border: none;
     color: transparent;
-    height: 90px;
 }
 
 
@@ -130,5 +129,17 @@ main{
 
 .descricao{
     color: #864DFE;
+}
+
+.error{
+    font-style: italic;
+    margin: 0;
+    padding: 0 auto;
+    color: red;
+    display:none;
+}
+
+#erPast, #erMonth, #erDay{
+    display:none;
 }
 
