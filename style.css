@@ -152,8 +152,12 @@ main{
 
 @media screen and (max-device-width: 799px) {
     
+    main{
+        width: 100%;
+    }
+
     .calculadora{
-        height: 900px;
+        height: 750px;
         width: 95%;
     }
 
@@ -170,7 +174,7 @@ main{
     }
 
     .date{
-        width: 120px;
+        width: 90px;
         border-width: 3px;
         font-size:35px;
         color: rgba(0, 0, 0, 0.697);
@@ -179,6 +183,7 @@ main{
         border-radius: 20px;
         border-color: rgba(0, 0, 0, 0.152);
         margin: 0;
+        padding-left: 10px;
     }
 
     .dateBox{
@@ -194,7 +199,7 @@ main{
     }
 
     .botao{
-        padding: 50px 45px;
+        padding: 40px 35px;
     }
 
     .line{
@@ -209,6 +214,10 @@ main{
         align-items: center;
         margin-top: 70px;
         margin-bottom: 50px;
+    }
+
+    .titulo{
+        font-size: 70px;
     }
 }
 
