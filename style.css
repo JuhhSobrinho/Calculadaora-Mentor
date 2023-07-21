@@ -157,7 +157,7 @@ main{
     }
 
     .calculadora{
-        height: 750px;
+        height: 700px;
         width: 95%;
     }
 
@@ -195,7 +195,7 @@ main{
     }
 
     .container{
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
     .botao{
